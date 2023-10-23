@@ -1,0 +1,164 @@
+@charset "UTF-8";
+body{
+    margin: 0;
+}
+
+@media screen and (max-width:961px){
+    .title{
+        text-align: center;
+    }
+    
+    .version{
+        font-size: 10px;
+        text-align: center;
+    }
+    
+    .question-box{
+        width: 90%;
+        box-sizing: border-box;
+        margin: auto;
+        background-color: bisque;
+        border-radius: 24px;
+        padding: 24px;
+    }
+
+    .question, .result{
+        font-size: 20px;
+        text-align: center;
+        margin: 8px 8px;
+    }
+
+    .options-box{
+        width: 90%;
+        box-sizing: border-box;
+        margin: auto;
+        padding: 8px 12px;
+    }
+
+    .option{
+        width: 100%;
+        box-sizing: border-box;
+        margin: 12px 0;
+        background-color: white;
+        padding: 12px;
+        border-radius: 8px;
+        user-select: none;
+    }
+
+    .option-A{
+        color: red;
+    }
+
+    .option-B{
+        color: blue;
+    }
+
+    .answer-button-box{
+        width: 80%;
+        box-sizing: border-box;
+        position: relative;
+        margin: auto;
+        display: block;
+    }
+
+    .result-box{
+        width: 80%;
+        box-sizing: border-box;
+        margin: auto;
+        background-color: bisque;
+        border-radius: 24px;
+        padding: 32px;
+        display: none;
+    }
+
+    .result-detail{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:960px){
+    .title{
+        text-align: center;
+    }
+    
+    .version{
+        font-size: 10px;
+        text-align: center;
+    }
+    
+    .question-box{
+        width: 60%;
+        margin: auto;
+        background-color: bisque;
+        border-radius: 24px;
+        padding: 32px;
+    }
+
+    .question, .result{
+        font-size: 24px;
+        text-align: center;
+        margin: 12px 12px;
+    }
+
+    .options-box{
+        width: 80%;
+        margin: auto;
+        padding: 12px 36px;
+    }
+
+    .option{
+        width: 100%;
+        margin: 12px 0;
+        background-color: white;
+        padding: 12px;
+        border-radius: 8px;
+        user-select: none;
+    }
+
+    .option-A{
+        color: red;
+    }
+
+    .option-B{
+        color: blue;
+    }
+
+    .answer-button-box{
+        width: 60%;
+        position: relative;
+        margin: auto;
+        display: flex;
+    }
+
+    .result-box{
+        width: 60%;
+        margin: auto;
+        background-color: bisque;
+        border-radius: 24px;
+        padding: 32px;
+        display: none;
+    }
+
+    .result-detail{
+        width: 80%;
+        margin: auto;
+    }
+}
